@@ -1,23 +1,32 @@
-# Compiled class file
+data/saves/characters/*
+*.xml
+*.iml
+.classpath
+
 *.class
+Data/logs/*
+data/logs/*
+/data/logs/*
+/Data/logs/*
+Data/clan/*
+data/clan/*
+/Data/clan/*
+/data/clan/*
 
-# Log file
-*.log
+.idea/*
+.idea
+.settings/*
 
-# BlueJ files
-*.ctxt
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+data/saves/clans/*
+.classpath
+.project
+patching/*
+/patching/
+bin/*
+/bin/
+data/def/txt/items - Copy.txt
+data/saves/farming/Crimson.txt
+data/saves/Bans.txt
+data/saves/clans/Necrotic.json
+data/saves/starters.txt

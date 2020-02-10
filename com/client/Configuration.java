@@ -8,6 +8,9 @@ public class Configuration {
 	 * Attack option priorities 0 -> Depends on combat level 1 -> Always right-click
 	 * 2 -> Left-click where available 3 -> Hidden
 	 */
+	
+	//changes
+	
 	public static int playerAttackOptionPriority = 0;
 	public static int npcAttackOptionPriority = 2;
 

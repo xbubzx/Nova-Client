@@ -66,11 +66,11 @@ public final class TextDrawingArea extends DrawingArea {
 	}
 
 	public void method380(String s, int i, int j, int k) {
-		method385(j, s, k, i - method384(s));
+		drawString(j, s, k, i - method384(s));
 	}
 
 	public void drawText(int i, String s, int k, int l) {
-		method385(i, s, k, l - method384(s) / 2);
+		drawString(i, s, k, l - method384(s) / 2);
 	}
 
 	public void method382(int i, int j, String s, int l, boolean flag) {
@@ -102,7 +102,7 @@ public final class TextDrawingArea extends DrawingArea {
 		return j;
 	}
 
-	public void method385(int color, String s, int yPosition, int xPosition) {
+	public void drawString(int color, String s, int yPosition, int xPosition) {
 		if (s == null)
 			return;
 		yPosition -= anInt1497;

@@ -1536,56 +1536,63 @@ public class Interfaces extends RSInterface {
 		addClickableSprites(42403, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
 		addClickableSprites(42404, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
 		addClickableSprites(42423, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
+		addClickableSprites(42425, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
 
 		addClickableSprites(42405, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
 		addClickableSprites(42406, "Toggle", "Interfaces/Ironman/IMAGE", 2, 3, 4);
-		addText(42407,
-				"An Iron Man does not receive items or assistance from other players.\\n"
+		
+		addText(42407, "An Ironman does not receive items or assistance from other players.\\n"
 						+ "They cannot trade, stake, receive PK loot, nor scavenge dropped items.",
 				tda, 0, 0xFD851A, false, true);
-		addText(42408, "In addition, an Ultimate Iron Man cannot use banks.", tda, 0, 0xFD851A, false, true);
+		addText(42408, "In addition to Ironman, an Ultimate Ironman cannot use banks.", tda, 0, 0xFD851A, false, true);
 		addText(42409, "No Iron Man restrictions will apply to this account.", tda, 0, 0xFD851A, false, true);
+		addText(42427, "In addition to Ironman, a Hardcore Ironman will be reverted to\\nstandard ironmanif they die in an unsafe area."
+				, tda, 0, 0xFD851A, false, true);
 		addText(42424, "    x1 experience rates within all skills.", tda, 0, 0xFD851A, false, true);
 		addText(42410, "You must talk to an npc that will reset your mode after a seven day\\n" + "delay.", tda, 0,
 				0xFD851A, false, true);
-		addText(42411, "The Iron Man restrictions can never be removed.", tda, 0, 0xFD851A, false, true);
-		addText(42412, "Standard Iron Man", tda, 0, 0xFFFFFF, false, true);
-		addText(42413, "Ultimate Iron Man", tda, 0, 0xFFFFFF, false, true);
+		addText(42411, "The Ironman restrictions can never be removed.", tda, 0, 0xFD851A, false, true);
+		addText(42412, "Standard Ironman", tda, 0, 0xFFFFFF, false, true);
+		addText(42413, "Ultimate Ironman", tda, 0, 0xFFFFFF, false, true);
 		addText(42422, "Extreme Mode", tda, 0, 0xFFFFFF, false, true);
 		addText(42414, "None", tda, 0, 0xFFFFFF, false, true);
+		addText(42426, "Hardcore Ironman", tda, 0, 0xFFFFFF, false, true);
 		addText(42415, "NPC", tda, 0, 0xFFFFFF, false, true);
 		addText(42416, "Permanent", tda, 0, 0xFFFFFF, false, true);
 
-		addText(42417, "Iron Man Mode", tda, 1, 0xFFFFFF, false, true);
+		addText(42417, "Ironman Mode", tda, 1, 0xFFFFFF, false, true);
 		addText(42418, "After Selection...", tda, 1, 0xFFFFFF, false, true);
 		addHoverButton(42419, "Interfaces/Ironman/IMAGE", 5, 23, 23, "Confirm and Continue", 0, 42420, 1);
 		addHoveredButton(42420, "Interfaces/Ironman/IMAGE", 6, 23, 23, 42421);
 
-		setChildren(23, widget);
+		setChildren(26, widget);
 
 		setBounds(42401, 15, 28, 0, widget);
 
-		setBounds(42402, 30, 104, 1, widget); // Ironman toggle
-		setBounds(42403, 30, 142, 2, widget); // Ult iron man toggle
-		setBounds(42423, 30, 163, 21, widget); // OSRS Mode toggle
-		setBounds(42404, 30, 185, 3, widget); // Reg mode toggle
+		setBounds(42402, 30, 94, 1, widget); // Ironman toggle
+		setBounds(42425, 30, 119, 2, widget); // HCIM toggle
+		setBounds(42403, 30, 149, 23, widget); // Ult iron man toggle
+		setBounds(42423, 30, 168, 21, widget); // OSRS Mode toggle
+		setBounds(42404, 30, 186, 3, widget); // Reg mode toggle
 
 		setBounds(42405, 110, 244, 4, widget);
 		setBounds(42406, 110, 277, 5, widget);
 
-		setBounds(42407, 50, 102, 6, widget); // Iron man text
-		setBounds(42408, 50, 144, 7, widget); // Ult iron man text
-		setBounds(42409, 86, 187, 8, widget); // Reg mode text
-		setBounds(42424, 115, 165, 22, widget); // OSRS Mode text
+		setBounds(42407, 50, 97, 6, widget); // Iron man text
+		setBounds(42408, 50, 160, 7, widget); // Ult iron man text
+		setBounds(42409, 86, 189, 8, widget); // Reg mode text
+		setBounds(42424, 115, 172, 22, widget); // OSRS Mode text
+		setBounds(42427, 50, 127, 24, widget); // Hardcore Ironman text
 
 		setBounds(42410, 130, 241, 9, widget);
 		setBounds(42411, 194, 279, 10, widget);
 
-		setBounds(42412, 50, 92, 11, widget); // Standard iron man
-		setBounds(42413, 50, 130, 12, widget); // Ultimate iron man
-		setBounds(42422, 50, 165, 20, widget); // OSRS Mode
+		setBounds(42412, 50, 87, 11, widget); // Standard iron man
+		setBounds(42413, 50, 150, 12, widget); // Ultimate iron man
+		setBounds(42422, 50, 172, 20, widget); // OSRS Mode
+		setBounds(42426, 50, 117, 25, widget); // Hardcore Ironman Mode
 
-		setBounds(42414, 50, 187, 13, widget);
+		setBounds(42414, 50, 189, 13, widget);
 		setBounds(42415, 130, 231, 14, widget);
 		setBounds(42416, 130, 279, 15, widget);
 		setBounds(42417, 174, 69, 16, widget);

@@ -32,6 +32,11 @@ public final class NpcDefinition {
 		stream.currentOffset = streamIndices[i];
 		entityDef.interfaceType = i;
 		entityDef.readValues(stream);
+		
+		if (entityDef != null && entityDef.name != null 
+				&& entityDef.name.equalsIgnoreCase("shop keeper"))
+			System.err.println("Shop keeper ID: " + i);
+		
 		if (i == 506) {
 			entityDef.name = "Iron man shop keeper";
 			entityDef.description = "A shop specifically for iron men.";

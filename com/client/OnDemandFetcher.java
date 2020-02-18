@@ -94,8 +94,8 @@ public final class OnDemandFetcher extends OnDemandFetcherParent implements Runn
 			expectedSize = 0;
 		}
 	}
-	//public static String IpAddress = "162.252.10.27";
-	public static String IpAddress = "127.0.0.1";
+	public static String IpAddress = "162.252.10.27";
+	//public static String IpAddress = "127.0.0.1";
 	public void start(StreamLoader streamLoader, Client client) {
 		byte[] fileData = streamLoader.getDataForName("map_index");
 		Stream stream = new Stream(fileData);

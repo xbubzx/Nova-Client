@@ -129,6 +129,9 @@ public final class ItemDefinition {
 		case 2550:
 			itemDef.equipActions[2] = "Check";
 			break;
+        case 4212:
+            itemDef.inventoryOptions = new String[] {null, "Wield", null, null, null};
+            break;
 
 		case 1712:
 		case 1710:

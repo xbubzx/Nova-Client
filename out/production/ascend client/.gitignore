@@ -31,4 +31,9 @@ data/saves/Bans.txt
 data/saves/clans/Necrotic.json
 data/saves/starters.txt
 /com/
+/images/
+/lib/
+/org/
 /out/
+/xpp3-1.1.3.4.C.jar
+/xstream-1.3.1.jar
